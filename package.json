@@ -1,27 +1,13 @@
 {
-  "_from": "json-upstream@^0.1.0",
-  "_id": "json-upstream@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha1-MyLeqHvQoKt8YKpowNtfNYnLZds=",
-  "_location": "/json-upstream",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "json-upstream@^0.1.0",
-    "name": "json-upstream",
-    "escapedName": "json-upstream",
-    "rawSpec": "^0.1.0",
-    "saveSpec": null,
-    "fetchSpec": "^0.1.0"
+  "name": "json-upstream",
+  "description": "Speaking to upstream JSON API services without throwing.",
+  "version": "1.0.0",
+  "deprecated": false,
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./{index,test}.js",
+    "test": "mocha ./test.js"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/json-upstream/-/json-upstream-0.1.0.tgz",
-  "_shasum": "3322dea87bd0a0ab7c60aa68c0db5f3589cb65db",
-  "_spec": "json-upstream@^0.1.0",
-  "_where": "/home/jeko/Documents/billingou/reeceipt/dashboard",
   "author": {
     "name": "Alexey Zabrodsky",
     "email": "elmigranto@gmail.com"
@@ -30,19 +16,10 @@
   "dependencies": {
     "request": "^2.88.0"
   },
-  "deprecated": false,
-  "description": "Speaking to upstream JSON API services without throwing.",
   "devDependencies": {
     "eslint": "^6.0.1",
     "expect.js": "^0.3.1",
     "mocha": "^6.1.4"
   },
-  "license": "ISC",
-  "main": "index.js",
-  "name": "json-upstream",
-  "scripts": {
-    "lint": "eslint ./{index,test}.js",
-    "test": "mocha ./test.js"
-  },
-  "version": "0.1.0"
+  "license": "ISC"
 }
