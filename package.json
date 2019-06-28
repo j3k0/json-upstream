@@ -28,7 +28,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "request": "^2.72.0"
+    "request": "^2.88.0"
   },
   "deprecated": false,
   "description": "Speaking to upstream JSON API services without throwing.",
