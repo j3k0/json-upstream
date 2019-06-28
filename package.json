@@ -33,9 +33,9 @@
   "deprecated": false,
   "description": "Speaking to upstream JSON API services without throwing.",
   "devDependencies": {
-    "eslint": "^2.10.2",
+    "eslint": "^6.0.1",
     "expect.js": "^0.3.1",
-    "mocha": "^2.4.5"
+    "mocha": "^6.1.4"
   },
   "license": "ISC",
   "main": "index.js",
