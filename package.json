@@ -1,25 +1,33 @@
 {
-  "name": "json-upstream",
-  "description": "Speaking to upstream JSON API services without throwing.",
-  "version": "1.0.0",
-  "deprecated": false,
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint ./{index,test}.js",
-    "test": "mocha ./test.js"
-  },
-  "author": {
-    "name": "Alexey Zabrodsky",
-    "email": "elmigranto@gmail.com"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
-    "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "eslint": "^6.0.1",
-    "expect.js": "^0.3.1",
-    "mocha": "^6.1.4"
-  },
-  "license": "ISC"
+    "name": "json-upstream",
+    "description": "Speaking to upstream JSON API services without throwing.",
+    "version": "1.0.0",
+    "deprecated": false,
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint ./{index,test}.js",
+        "test": "mocha ./test.js"
+    },
+    "author": {
+        "name": "Alexey Zabrodsky",
+        "email": "elmigranto@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/j3k0/json-upstream.git"
+    },
+    "bugs": {
+        "url": "https://github.com/j3k0/json-upstream/issues"
+    },
+    "homepage": "https://github.com/j3k0/json-upstream",
+    "bundleDependencies": false,
+    "dependencies": {
+        "request": "^2.88.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.0.1",
+        "expect.js": "^0.3.1",
+        "mocha": "^6.1.4"
+    },
+    "license": "ISC"
 }
